@@ -1,3 +1,2 @@
-# Minha primeira página.  
-Estou aprendend ainda....  
+# Minha primeira página.    
 tenha paciência.
