@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastros</title>
+</head>
+<body>
+    <div>
+        <h1>Hellsing e seus "vilões" incríveis</h1>
+        <p>Deixe sua opinião sobre o Alexander, o Walter, ou os nazistas(mesmo que sua opinião seja questionável). </p>
+        <form>
+            <fieldset>
+                <div>
+                    <label>Seu email</label>
+                    <input type="email" name="Seu email" id="Seu email">
+                </div>
+
+                <div>
+                    <label>Nome do personagem</label>
+                    <input type="text" name="Nome do personagem" id="Nome do personagem">
+                </div>
+            </fieldset>
+
+            <div>
+                <label>O quanto seu personagem foi extremista?</label>
+                <label>
+                    <input type="radio" name="O quanto seu personagem foi extremista?" value="pouco">Pouco
+                </label>
+                <label>
+                    <input type="radio" name="O quanto seu personagem foi extremista?" value="muito">Muito
+                </label>
+                <label>
+                    <input type="radio" name="O quanto seu personagem foi extremista?" value="absurdamente">Absurdamente
+                </label>
+            </div>
+
+            <div>
+                <label>O personagem morreu rápido?</label>
+                <select id="O personagem morreu rápido?">
+                    <option selected disable value=""></option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                    <option>trupicou mais não caiu</option>
+                </select>
+            </div>
+
+            <fildset>
+                <div>
+                    <label>O personagem é Nazista?</label>
+                    <input type="checkbox" id="O personagem é Nazista?" name="O personagem é Nazista?" value="Sim">
+                    <input type="checkbox" id="O personagem é Nazista?" name="O personagem é Nazista?" value="Não">
+                </div>
+            </fildset>
+
+            <button type="submit">Concluído</button>
+
+        </form>
+    </div>
+</body>
+</html>
